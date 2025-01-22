@@ -1,12 +1,12 @@
 # Cannon Keys Website "Remake" w/ Bootstrap
 
-This project was modeled after https://cannonkeys.com/, one of my personal favorite websites! Overall a very simple, bright, and clean website with great responsiveness/feedback throughout the website.
+This project was modeled after https://cannonkeys.com/, one of my personal favorite websites! Overall, it is a very simple, bright, and clean website with great responsiveness/feedback throughout the website.
 
 I'll refer to cannonkeys as the 'original' website.
 
 ## Features
 
-The original website greets you with a massive carousel to display different products, and a clean/simple nav bar at the top of the screen. I replicated those same features within my remake using bootstrap components and css.
+The original website greets you with a massive carousel to display different products, and a clean/simple nav bar at the top of the screen. I replicated those same features within my remake using Bootstrap components and CSS.
 
 ## Bootstrap Components/Features Used
 
@@ -21,7 +21,7 @@ The original website greets you with a massive carousel to display different pro
 
 ### Contact Us / FAQ
 
-- Accordian
+- Accordion
 - Bootstrap Grid
 - Forms
 - Validation
@@ -39,12 +39,12 @@ The original website greets you with a massive carousel to display different pro
 
 ## Javascript
 
-I added 4 functions within main.js, 3 of which are features I plan to implement as detailed below...
+I added four functions within main.js, three of these are features I plan to implement as detailed below...
 
 
 ### addToCart
 
-A simple function that would take an element of a product (most likely the product ID) and add it into the cart array. Afterward we then call the updateItemCount function, further detailed below...
+A simple function that would take an element of a product (most likely the product ID) after an "Add to cart" button is pressed, and add the ID into the cart array. Afterward we then call the updateItemCount function, further detailed below...
 
 ### updateItemCount
 
@@ -58,5 +58,5 @@ This function would calculate what the total price would be for a product, takin
 
 ### Validation Function
 
-This function is a working script within the website that enables the browsers built-in form validation. The contact us form is then validated with the original HTML rules (input type="email" for example).
+This function allows for Bootstraps form controls to work with the browser's built-in form validation. The contact us form is then validated, after the user clicks the "Send message" button, with the original HTML rules (input type="email" for example).
 
