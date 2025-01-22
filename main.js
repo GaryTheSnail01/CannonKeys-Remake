@@ -1,9 +1,9 @@
-// Using a list to store items the user adds to their cart
+// Using an array to store items the user adds to their cart
 let cart = [];
 
 // Add an item to the cart
 function addToCart(product) {
-    // Add the product to the cart
+    // Add the product to the cart array
     cart.push(product);
     // Update the count of items in the cart
     updateItemCount();
@@ -11,7 +11,7 @@ function addToCart(product) {
 
 // Update the count of items in the cart
 function updateItemCount() {
-    // Set itemCount to the lenth of the cart list
+    // Set itemCount to the lenth of the cart array
     const itemCount = cart.length;
     // Update the count in the HTML
     document.getElementById("item-count").textContent = itemCount;
