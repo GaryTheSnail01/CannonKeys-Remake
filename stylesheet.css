@@ -21,6 +21,10 @@
     margin-right: 20px;
 }
 
+#nav-items {
+    gap: 14px;
+}
+
 /* Carousel */
 
 .carousel-inner {
